@@ -34,20 +34,20 @@
 4. mobx
 5. Тесты на mocha/jest
 
-#Установка
+## Установка
 
 ```
-$git clone https://github.com/tolyod/react-mobx-crud-test-task.git``
+$git clone https://github.com/tolyod/react-mobx-crud-test-task.git
 
 $cd react-mobx-crud-test-task
 
 $npm install```
 
-#Запуск 
+## Запуск 
 ```npm start```
 
-#Запуск тестов
+## Запуск тестов
 ```npm test```
 
-#Browser Demo
+## Browser Demo
 [online demo](https://rawgit.com/tolyod/react-mobx-crud-test-task/master/demo/)
