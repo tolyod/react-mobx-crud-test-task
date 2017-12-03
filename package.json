@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/mobxjs/mobx/issues"
   },
-  "homepage": "https://cdn.rawgit.com/tolyod/react-mobx-crud-test-task/0c31e227/demo/",
+  "homepage": "https://rawgit.com/tolyod/react-mobx-crud-test-task/master/demo/",
   "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-loader": "^7.1.2",
