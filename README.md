@@ -15,12 +15,12 @@
 
 Список может выглядеть так
 
-![List sample](sample_list.png)
+![List sample](pics/sample_list.png)
 
 
 А форма создания так
 
-![Create form sample](create_form.png)
+![Create form sample](pics/create_form.png)
 
 Это должно быть SPA приложение, написанное на reactjs. Исходный код с инструкциями по запуску должен быть выложен на github/bitbucket/gitlab.
 В приложении должна быть постраничная навигация, то есть списк, формы редактирования сотрудников и форма добавления сотрудника - разные страницы,
