@@ -41,17 +41,18 @@ class ListMates extends React.Component {
   }
 
   render () {
-    const itemsList = this.state.mates.slice().map ( (value, index) => {
+    const itemsList = this.state.mates.slice().reduce ( (acc, value, index) => {
 
       const mateIndex = matesStore.matesState.slice().findIndex( (el, index ) => {
         return (el.name.first == value.name.first) && (el.name.last == value.name.last);
       } );
       
-      return <MateRowItem
+      return (mateIndex === -1) ? acc : acc.concat([( <MateRowItem
         key={`mateItem_${index}`}
         value={value}
-        mateID={mateIndex}/>
-    });
+        mateID={mateIndex} />)]);
+
+    }, []);
 
     return (
       <div>
