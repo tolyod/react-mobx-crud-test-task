@@ -10,10 +10,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 useStrict(true);
 
-const Header = () => (
-  <div><Link to='/'>Main List</Link></div>
-);
-
 const Main = (props) => {
   return (
     <Switch>
@@ -25,20 +21,12 @@ const Main = (props) => {
 );
 };
 
-const App = (props) => {
-  return  (
-     <div>
-       <Header />
-       <Main />
-     </div>
-   );
-};
 
 // ========================================
 
 ReactDOM.render(
   <Router>
-    <App />
+    <Main />
   </Router>,
   document.getElementById('root')
 );
