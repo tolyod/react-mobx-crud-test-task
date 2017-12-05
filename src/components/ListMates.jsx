@@ -32,7 +32,7 @@ class ListMates extends React.Component {
     const filteredMates = matesStore.matesState.peek().filter( (el) => {
       const isFirstNameMatched = this.matchStringPair(curObj.firstName, el.name.first);
       const isLastNameMatched = this.matchStringPair(curObj.lastName, el.name.last);
-      const isAgeMatched = (curObj.age <=1 ) ? true : (el.age === curObj.age);
+      const isAgeMatched = (curObj.age <=1 ) ? true : (el.age == curObj.age);
 
       return isFirstNameMatched && isLastNameMatched && isAgeMatched;
     });
