@@ -1,10 +1,10 @@
 # react-mobx-crud-test-task
 ## Тестовое задание на должность Frontend Developer
 
-Необходимо разработать CRUD интерфейс для работы с базой сотрудников. 
+Необходимо разработать CRUD интерфейс для работы с базой сотрудников.
 
 Обязательными являются следующие функции:
-  
+
   - список людей
   - создание
   - редактирование
@@ -44,7 +44,7 @@ $cd react-mobx-crud-test-task
 $npm install
 ```
 
-## Запуск 
+## Запуск
 
 ```
 npm start
@@ -56,4 +56,4 @@ npm test
 ```
 
 ## Browser Demo
-[online demo](https://rawgit.com/tolyod/react-mobx-crud-test-task/master/demo/)
+[online demo](https://tolyod.github.io/react-mobx-crud-test-task/)
