@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-mobx-crud-test-task/precache-manifest.6004f2b7d2b280b5408e19bb3fa697a0.js"
+  "/react-mobx-crud-test-task/precache-manifest.85e690ae5b7fd12bf87ff734fcb6c509.js"
 );
 
 workbox.clientsClaim();
