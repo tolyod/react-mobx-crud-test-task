@@ -2,6 +2,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import matesStore from '../models/MatesStore';
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 const EditMate = observer (class EditMate extends React.Component {
   constructor(props) {
@@ -60,7 +61,7 @@ const EditMate = observer (class EditMate extends React.Component {
                   <input id="age" name="age"  value={this.mates[this.mateID].age} onChange={this.handleChange} className="form-control" type="number" min="1" />
                   <span id="error_age" className="text-danger"></span>
                 </div>
-                <button className="btn btn-default center"><Link to='/'>Обновить</Link></button>
+                <Link to='/'><Button variant="outline-success">Обновить</Button></Link>
               </form>
             </div>
           </div>

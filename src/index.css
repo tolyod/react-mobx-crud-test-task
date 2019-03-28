@@ -16,7 +16,13 @@ ol, ul {
 .status {
   margin-bottom: 10px;
 }
-
+div.mateListDiv {
+  padding: 20px;
+}
+div.createmate {
+  padding-left: 20px;
+  padding-top: 20px;
+}
 .square {
   background: #fff;
   border: 1px solid #999;

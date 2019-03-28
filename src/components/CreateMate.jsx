@@ -1,6 +1,7 @@
 import React from "react";
 import matesStore from '../models/MatesStore';
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 class CreateMate extends React.Component {
   constructor(props) {
@@ -67,12 +68,9 @@ class CreateMate extends React.Component {
                   min="1" />
                   <span id="error_age" className="text-danger"></span>
                 </div>
-                <button
-                  id="submit"
-                  onClick={this.handleClick}
-                className="btn btn-default center">
-                  <Link to='/'>Создать</Link>
-                </button>
+                <Link to="/">
+                <Button variant="outline-success" id="submit" onClick={this.handleClick}>Создать</Button>
+              </Link>
               </form>
             </div>
           </div>

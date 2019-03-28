@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { useStrict } from "mobx";
+import { configure } from "mobx";
 import CreateMate from './components/CreateMate';
 import EditMate from './components/EditMate';
 import ListMates from './components/ListMates';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-useStrict(true);
+configure({
+    enforceActions: 'observed'
+});
 
 const Main = (props) => {
   return (

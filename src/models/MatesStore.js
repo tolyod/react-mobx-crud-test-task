@@ -1,4 +1,4 @@
-import { computed, action, extendObservable } from "mobx";
+import { action, extendObservable } from "mobx";
 import uuidv1 from 'uuid/v1';
 import matesDB from '../mates.json';
 
@@ -6,7 +6,7 @@ class ObservableMatesStore {
   constructor () {
     extendObservable(this, {
       'mates' : [],
-      'matesState' : computed(() => this.mates)
+      get matesState() { return this.mates; }
     })
   }
 
