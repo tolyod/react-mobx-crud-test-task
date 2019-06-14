@@ -105,9 +105,9 @@ class ListMates extends React.Component {
           <tbody>
             <tr key='tr_filter'>
               <td key='id_filter'>-</td>
-              <td key='nf_input'><input type='text' name='firstName' value={this.state.firstName} onChange={this.handleChange}></input></td>
-              <td key='nl_input'><input type='text' name='lastName' value={this.state.lastName} onChange={this.handleChange}></input></td>
-              <td key='age_input'><input type='number' min='1' step='1' name='age' value={this.state.age} onChange={this.handleChange}></input></td>
+              <td key='nf_input'><input type='text' name='firstName' value={this.state.firstName} onChange={(e) => this.handleChange(e)}></input></td>
+              <td key='nl_input'><input type='text' name='lastName' value={this.state.lastName} onChange={(e) => this.handleChange(e)}></input></td>
+              <td key='age_input'><input type='number' min='1' step='1' name='age' value={this.state.age} onChange={(e) => this.handleChange(e)}></input></td>
               <td key='actoions_input'>
                 <span>
                 </span>
