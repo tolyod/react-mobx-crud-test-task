@@ -35,9 +35,9 @@
     "react-lodash": "^0.1.2",
     "react-router": "^4.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
+    "react-scripts": "3.0.0",
     "typescript": "^3.5.2",
-    "snyk": "^1.193.2"
+    "snyk": "^1.228.1"
   },
   "scripts": {
     "start": "react-scripts start",
