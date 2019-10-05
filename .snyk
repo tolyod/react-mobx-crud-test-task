@@ -1710,8 +1710,11 @@ patch:
         patched: '2019-09-18T10:21:36.625Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
         patched: '2019-09-18T10:21:36.625Z'
-  SNYK-JS-HTTPSPROXYAGENT-469131:
-    - snyk > proxy-agent > https-proxy-agent:
-        patched: '2019-10-05T13:46:55.223Z'
-    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
-        patched: '2019-10-05T13:46:55.223Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2019-10-05T13:47:25.873Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-05T13:47:25.873Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2019-10-05T13:47:25.873Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-05T13:47:25.873Z'
