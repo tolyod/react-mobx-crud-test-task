@@ -20,25 +20,26 @@
   "author": "Anatoliy Poloz <anatoliy.poloz@gmail.com> (http://github.com/tolyod)",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.6.0",
     "handlebars": "^4.7.6",
+    "immer": "^8.0.1",
     "ini": "^1.3.8",
     "jquery": "3.5.0",
-    "js-yaml": "^3.13.1",
-    "mobx": "^5.9.0",
-    "mobx-react": "^5.4.3",
+    "js-yaml": "^3.14.1",
+    "mobx": "^5.15.7",
+    "mobx-react": "^5.4.4",
     "mobx-react-devtools": "^6.1.1",
-    "mobx-react-router": "^4.0.7",
-    "popper.js": "^1.14.7",
-    "react": "^16.8.5",
-    "react-bootstrap": "^1.0.0",
-    "react-dom": "^16.8.5",
+    "mobx-react-router": "^4.1.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.14.0",
     "react-lodash": "^0.1.2",
     "react-router": "^4.0.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "2.1.8",
-    "snyk": "^1.316.1",
-    "typescript": "^3.5.2"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "snyk": "^1.438.0",
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -60,7 +61,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0",
+    "serialize-javascript": "^3.1.0",
+    "tar": "^4.4.13"
   },
   "snyk": true
 }
