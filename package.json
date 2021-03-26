@@ -32,7 +32,7 @@
     "mobx-react-router": "^4.1.0",
     "popper.js": "^1.16.1",
     "react": "^16.14.0",
-    "react-bootstrap": "^1.4.3",
+    "react-bootstrap": "^1.5.1",
     "react-dom": "^16.14.0",
     "react-lodash": "^0.1.2",
     "lodash": "^4.17.21",
