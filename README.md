@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/tolyod/react-mobx-crud-test-task/badge.svg)](https://snyk.io/test/github/tolyod/react-mobx-crud-test-task)
+
 # react-mobx-crud-test-task
 ## Тестовое задание на должность Frontend Developer
 
