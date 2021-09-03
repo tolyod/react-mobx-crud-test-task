@@ -43,7 +43,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "snyk": "^1.518.0",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.10"
   },
   "scripts": {
     "start": "react-scripts start",
