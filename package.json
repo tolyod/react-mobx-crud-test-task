@@ -67,7 +67,7 @@
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "serialize-javascript": "^3.1.0",
-    "tar": "^4.4.13"
+    "tar": "^4.4.18"
   },
   "snyk": true
 }
